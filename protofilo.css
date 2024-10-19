@@ -1,0 +1,248 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(32, 160, 203);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.logo {
+    width: 100px;
+    margin: 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.menus {
+    list-style: none;
+    display: flex;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.menus a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menus a:hover {
+    color: purple;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#touch {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#touch:hover {
+    color: blanchedalmond;
+}
+
+.bio {
+    width: 90%;
+    height: 77vh;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.mypic {
+    width: 700px;
+    height: 280px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    box-shadow: 10px 20px 20px rgb(0, 0, 0, 0.2) inset;
+}
+
+.left {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 140px;
+}
+
+.leftbio {
+    color: black;
+}
+
+#purple {
+    color: rgb(201, 12, 201);
+}
+
+#element {
+    color: rgb(201, 12, 201);
+}
+
+p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+hr {
+    width: 80%;
+    margin: auto;
+}
+
+.exper {
+    width: 100%;
+    height: 80vh;
+}
+
+h1 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.hrline {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.vrline {
+    height: 70px;
+    width: 2px;
+    background-color: black;
+}
+
+.head {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.icons {
+    width: 150px;
+    position: relative;
+    top: -80px;
+    left: -60px;
+}
+
+.icons2 {
+    width: 150px;
+    position: relative;
+    top: -90px;
+    left: -60px;
+}
+
+.icons3 {
+    width: 150px;
+    height: 50x;
+    position: relative;
+    top: -75px;
+    left: -60px;
+}
+
+.icons4 {
+    width: 150px;
+    position: relative;
+    top: -130px;
+    left: -60px;
+}
+
+.vrrole {
+    top: -130px;
+    font-size: 25px;
+    font-weight: 700;
+    width: 200px;
+    color: rgb(201, 12, 201);
+}
+
+.vrdis {
+    top: -150px;
+    font-size: 14px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.vrrole4 {
+    left: -50px;
+    margin-top: -85px;
+    top: -130px;
+    font-size: 25px;
+    font-weight: 700;
+    width: 200px;
+    color: rgb(201, 12, 201);
+}
+
+.vrdis4 {
+    top: -150px;
+    font-size: 14px;
+    width: 200px;
+    margin-top: 25px;
+}
+
+footer {
+    width: 100%;
+    height: 50vh;
+    margin-top: 60px;
+    background-color: black;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.media {
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.media:hover {
+    color: rgb(201, 12, 201);
+    font-size: 30px;
+    margin-top: 30px;
+    transition: all 3s;
+}
+
+.social {
+    cursor: pointer;
+    display: flex;
+    gap: 40px;
+}
+
+.link {
+    color: rgb(6, 6, 6);
+}
+
+.About {
+    color: black;
+}
+
+html {
+    scroll-behavior: smooth;
+}
